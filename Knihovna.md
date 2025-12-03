@@ -66,26 +66,26 @@
 
  # Třídy
  1. USER
-    login(email,heslo) - Kontrola emailu a hesla v DB
-    register(user) - Získání dat z formuláře, uložení do DB
-    getID(id) - Získání ID uživatele
-    getBorrow() - Získání půjčených knih uživatele a uložení nových    knih 
-    checkAdmin() - Kontrola zda se jadná o admina
-    checkLibrarian - Kontrola zda se jedná o knihovníka
+    - login(email,heslo) - Kontrola emailu a hesla v DB
+    - register(user) - Získání dat z formuláře, uložení do DB
+    - getID(id) - Získání ID uživatele
+    - getBorrow() - Získání půjčených knih uživatele a uložení nových    knih 
+    - checkAdmin() - Kontrola zda se jadná o admina
+    - checkLibrarian - Kontrola zda se jedná o knihovníka
 2. Book
-    getAll() - Získání všech knih
-    getId(id) - Získání id knihy
-    search(keyword) - Hledat a filtrovat
-    add(data) - přidat a smazat novou knihu 
-    update(id, data) - úprava knihy
-    deleteBook() - ubrat knihu ze skladu pokud je půjčena
-    addBook() - přidat knihu na sklad pokud je vrácena
+    - getAll() - Získání všech knih
+    - getId(id) - Získání id knihy
+    - search(keyword) - Hledat a filtrovat
+    - add(data) - přidat a smazat novou knihu 
+    - update(id, data) - úprava knihy
+    - deleteBook() - ubrat knihu ze skladu pokud je půjčena
+    - addBook() - přidat knihu na sklad pokud je vrácena
 3. Borrow
-    create(userId,bookId) - Vytvoření výpůjčky
-    getUser(userId) - Získání dat k uživately a půjčeným knihám
-    getAll() - Získání všech výpůjček
-    returned(id) - Vrácené knihy
+    - create(userId,bookId) - Vytvoření výpůjčky
+    - getUser(userId) - Získání dat k uživately a půjčeným knihám
+    - getAll() - Získání všech výpůjček
+    - returned(id) - Vrácené knihy
 4. Database
-    connect() - Připojení k DB
-    query() - Otázky
-    execute() - Potvrzení
+    - connect() - Připojení k DB
+    - query() - Otázky
+    - execute() - Potvrzení
